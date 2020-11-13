@@ -18,9 +18,6 @@ const PropsType = {
 
 export default defineComponent({
   name: 'HelloWorld',
-  props: PropsType,
-  setup(props) {
-    console.log(props.age)
-  }
+  props: PropsType
 })
 </script>
